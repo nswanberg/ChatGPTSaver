@@ -1,0 +1,50 @@
+/* CSS for view.html Chrome Extension */
+
+/*
+    Show a list of chat logs
+
+    Each chat log has a list of messages in it
+
+    The chat log's title is the name of the chat log and is larger and bolded
+
+    The messages are displayed as rectangular sub items
+
+    */
+
+/* General */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Chat log list */
+
+.chat-log-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chat-log-list-item {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.chat-log-list-item-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.message-item {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
