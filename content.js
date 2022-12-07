@@ -17,6 +17,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
 function extractChatLogFromDocument() {
     return Array
-    .from(document.querySelectorAll("div[class*='request-']"))
+    .from(document.querySelectorAll("div[class*='text-base']"))
     .map((i) => { return { "text": i.innerText, "html": i.innerHTML } });
 }
